@@ -1,9 +1,9 @@
-"use client";
+'use client';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@Clerk/nextjs";
-import { AppContextProvider } from "@/context/AppContext";
+import { AppContextProvider } from "@/context/AppContext.jsx";
 
 const inter = Inter({
   weight: "400",
